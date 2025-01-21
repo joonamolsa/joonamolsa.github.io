@@ -68,3 +68,38 @@ footer {
   color: #135000;
   margin-top: 20px;
 }
+
+/* Yleinen tyyli painikkeille */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Sileä siirtymä */
+  text-align: center;
+}
+
+/* Facebook-painike */
+.facebook {
+  background-color: #3b5998; /* Facebookin väri */
+}
+
+/* Instagram-painike */
+.instagram {
+  background-color: #e1306c; /* Instagramin väri */
+}
+
+/* LinkedIn-painike */
+.linkedin {
+  background-color: #0077b5; /* LinkedInin väri */
+}
+
+/* Hover-efekti kaikille painikkeille */
+.button:hover {
+  box-shadow: 0 0 15px 5px #00ff00; /* Hohtava vihreä varjo */
+  border-color: #00ff00; /* Vihreä reunus */
+  color: #00ff00; /* Vihreä teksti */
+}
