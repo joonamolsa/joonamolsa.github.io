@@ -53,9 +53,16 @@
         <h2>Ota yhteyttä</h2>
         <p>
           Voit ottaa minuun yhteyttä sähköpostitse:
-          <a href="mailto:joona.molsa@Luukku.com">joona.molsa@Luukku.com</a>
+          <span id="email"></span>
         </p>
       </section>
+      <script>
+        // Rakentaa sähköpostiosoitteen JavaScriptissä
+        const email = "joona.molsa" + "@Luukku.com";
+        document.getElementById(
+          "email"
+        ).innerHTML = `<a href="mailto:${email}">${email}</a>`;
+      </script>
     </main>
     <footer>
       <p>&copy; 2025 Sovelluskehittäjä Joona Mölsä</p>
