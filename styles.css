@@ -5,7 +5,7 @@ body {
   padding: 0;
   line-height: 1.6;
   background-color: #2e2e2e;
-  color: #fff;
+  color: #135000;
   background-image: url("images/wallpaper.jpg"); /* Polku kuvalle */
   background-size: cover; /* Varmistaa, että kuva peittää koko taustan */
   background-position: center; /* Keskittää kuvan */
@@ -15,7 +15,7 @@ body {
 /* Otsikko ja navigaatio */
 header {
   background: transparent; /* Läpinäkyvä tausta */
-  color: #fff;
+  color: #135000;
   padding: 1rem 0;
   text-align: center;
 }
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #135000;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -65,6 +65,6 @@ footer {
   text-align: center;
   padding: 10px 0;
   background: transparent; /* Läpinäkyvä tausta */
-  color: #3cee05;
+  color: #135000;
   margin-top: 20px;
 }
