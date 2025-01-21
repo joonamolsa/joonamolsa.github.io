@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
   background-color: #2e2e2e;
   color: #fff;
-  background-image: url("images/taustakuva.jpg"); /* Polku kuvalle */
+  background-image: url("images/taustakuva.jpg.webp"); /* Polku kuvalle */
   background-size: cover; /* Varmistaa, että kuva peittää koko taustan */
   background-position: center; /* Keskittää kuvan */
   background-attachment: fixed; /* Pitää kuvan paikallaan vierittäessä */
