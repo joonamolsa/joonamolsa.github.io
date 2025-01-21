@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
   background-color: #2e2e2e;
   color: #fff;
-  background-image: url("images/taustakuva.jpg.webp"); /* Polku kuvalle */
+  background-image: url("images/matrix.jpg"); /* Polku kuvalle */
   background-size: cover; /* Varmistaa, että kuva peittää koko taustan */
   background-position: center; /* Keskittää kuvan */
   background-attachment: fixed; /* Pitää kuvan paikallaan vierittäessä */
@@ -14,7 +14,7 @@ body {
 
 /* Otsikko ja navigaatio */
 header {
-  background: #000000;
+  background: transparent; /* Läpinäkyvä tausta */
   color: #fff;
   padding: 1rem 0;
   text-align: center;
@@ -29,7 +29,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  background: #000000;
+  background: transparent; /* Läpinäkyvä tausta */
 }
 
 nav ul li {
@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #000000;
+  background: #000000; /* Tumman taustan hover-efekti */
   border-radius: 5px;
 }
 
@@ -55,7 +55,7 @@ main {
 section {
   margin-bottom: 20px;
   padding: 20px;
-  background: #000000;
+  background: transparent; /* Läpinäkyvä tausta */
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -64,7 +64,7 @@ section {
 footer {
   text-align: center;
   padding: 10px 0;
-  background: #000000;
+  background: transparent; /* Läpinäkyvä tausta */
   color: #fff;
   margin-top: 20px;
 }
